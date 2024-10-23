@@ -1,0 +1,17 @@
+{
+    "firstname": {
+        "minLength": 3,
+        "maxLength": 20,
+        "required": true,
+        "allowSpecialCharacters": false
+    }, 
+    "lastname": {
+       "minLength": 3,
+        "maxLength": 20,
+        "required": false,
+        "allowSpecialCharacters": false
+    },
+    "email": {
+        "required": true
+    }
+}
